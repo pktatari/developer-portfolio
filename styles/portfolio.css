@@ -68,6 +68,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* margin-bottom: 130px; */
 }
 .profile-pic {
   width: 500px;
@@ -102,4 +103,15 @@ header {
   border-radius: 10px;
   background: #fff8f3;
   margin: 130px 0px;
+}
+main {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.info-title {
+  text-align: center;
 }
